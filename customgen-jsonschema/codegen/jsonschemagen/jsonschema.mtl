@@ -5,7 +5,7 @@
 [template public generateElement(aClass : Class)]
 	
 	[comment @main /]
-	[file (aClass.name + 'json', false, 'UTF-8')]
+	[file (aClass.name + '.json', false, 'UTF-8')]
 	Hello JSONSchema-[aClass.name/] generator!
 	[/file]
 
