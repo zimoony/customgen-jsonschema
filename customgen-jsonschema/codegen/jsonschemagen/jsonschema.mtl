@@ -3,7 +3,10 @@
 
 
 [template public generateElement(aClass : Class)]
-
-Hello JSONSchema generator!
+	
+	[comment @main /]
+	[file (aClass.name + 'json', false, 'UTF-8')]
+	Hello JSONSchema-[aClass.name/] generator!
+	[/file]
 
 [/template]
