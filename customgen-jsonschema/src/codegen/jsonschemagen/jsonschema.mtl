@@ -1,5 +1,5 @@
 [comment encoding = UTF-8 /]
-[module generate('http://www.eclipse.org/uml2/4.0.0/UML')]
+[module jsonschema('http://www.eclipse.org/uml2/4.0.0/UML')]
 
 
 [template public generateElement(aClass : Class)]
